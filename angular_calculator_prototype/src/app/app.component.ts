@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
     }
   }
   delAll() {
-    this.toCompute = '';
+    this.toCompute = '0';
   }
 
   neg() {

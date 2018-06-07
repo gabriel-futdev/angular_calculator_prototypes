@@ -64,7 +64,7 @@ export class FuncButtonsComponent implements OnInit {
       DisplayComponent.prototype.getComputedValue();
     }
     delAll() {
-      this.toCompute = '';
+      this.toCompute = '0';
 
       SharedComponent.prototype.setComputedExp(this.toCompute);
       SharedComponent.prototype.setHistory(this.hist);
